@@ -188,9 +188,7 @@ h2 {
     margin-bottom: 50px;
     justify-content: center;
     align-items: center;
-    height: 150px;
     background-color: var(--color-claro);
-    width: auto;
     border-radius: 10px;
     padding: 20px 40px;
     box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
@@ -205,9 +203,9 @@ h2 {
 
 .form__conteiner {
     font-size: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
 }
 
 .boton {
@@ -396,5 +394,12 @@ input {
     .pie>div {
         width: 100%;
         padding: .3rem 2rem;
+    }
+
+    .form__conteiner {
+        font-size: 20px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
     }
 }
