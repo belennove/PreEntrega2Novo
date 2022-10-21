@@ -19,19 +19,25 @@
     <div class="contenedor-grid">
         <header class="cabecera">
             <div class="logo">
-                <img src="../images/house.png" alt="logo" />
-                <p class="logo-name">Abrem Inmobiliaria</p>
+              <img src="../images/house.png" alt="logo" />
+              <p class="logo-name">Abrem Inmobiliaria</p>
             </div>
-            <nav>
-                <ul class="menu">
-                    <li><a href="../index.html">inicio</a></li>
-                    <li><a href="./comprar.html">comprar</a></li>
-                    <li><a href="./vender.html">vender</a></li>
-                    <li><a href="./alquilar.html">alquilar</a></li>
-                    <li><a href="./contactos.html">contacto</a></li>
-                </ul>
+            <div class="toggle-menu">
+              <label for="toggle-menu-checkbox"><i class="fa-solid fa-bars fa-2xl"></i></label>
+            </div>
+            <nav class="cabecera-nav">
+              <input type="checkbox" 
+                      class="toggle-menu_checkbox" 
+                     id="toggle-menu-checkbox" />
+              <ul class="cabecera-nav__menu">
+                <li><a href="../index.html">inicio</a></li>
+                <li><a href="comprar.html">comprar</a></li>
+                <li><a href="vender.html">vender</a></li>
+                <li><a href="alquilar.html">alquilar</a></li>
+                <li><a href="contactos.html">contacto</a></li>
+              </ul>
             </nav>
-        </header>
+          </header>
         <div class="portada">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">

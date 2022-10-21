@@ -16,7 +16,6 @@ html {
     color: var(--color-oscuro);
 }
 
-
 .contenedor-grid {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -27,7 +26,6 @@ html {
         ". contenido ."
         "pie pie pie";
 }
-
 
 /*----HEADER---*/
 .logo {
@@ -81,7 +79,7 @@ html {
     list-style: none;
     margin: 0;
 
-    transition: transform 0.3 ease-out;
+    transition: transform 0.3s ease-out;
     transform: translateY(0);
 }
 
@@ -109,6 +107,7 @@ html {
     color: var(--color-claro);
     text-decoration: none;
     text-transform: capitalize;
+    transition: color .3s ease-out;
 }
 
 .cabecera-nav__menu a:hover,
@@ -235,7 +234,6 @@ input {
     padding: 1rem;
 }
 
-
 .contenido-vender {
     display: flex;
     grid-column: 1 / 5;
@@ -321,8 +319,6 @@ input {
 }
 
 
-
-
 /*---- FIN DE main---*/
 
 /*----FOOTER---*/
@@ -350,34 +346,12 @@ input {
 }
 
 /*---- FIN FOOTER---*/
-/* 
-
-@media screen and (min-width: 480px) and (max-width: 780px) {
-    .contenedor-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 6rem 15rem auto 8rem;
-        grid-template-areas:
-            "cabecera cabecera"
-            "portada portada"
-            "contenido contenido"
-            "pie pie";
-    }
-
-    .toggle-menu {
-        display: none;
-    }
-
-    .logo-name {
-        display: none;
-    }
-} */
 
 @media screen and (max-width: 780px) {
     .contenedor-grid {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 6rem 15rem auto 8rem;
+        grid-template-rows: 6rem 15rem auto 13rem;
         grid-template-areas:
             "cabecera"
             "portada"
@@ -389,11 +363,11 @@ input {
         display: block;
     }
 
+
     .cabecera-nav__menu {
         background-color: #354259;
         flex-direction: column;
         transform: translateY(-100%);
-        /* z-index: 2; */
     }
 
     .cabecera-nav__menu>li {
@@ -410,4 +384,17 @@ input {
         z-index: 2;
     }
 
+    .imagen-venta {
+        display: none;
+    }
+
+    .pie {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .pie>div {
+        width: 100%;
+        padding: .3rem 2rem;
+    }
 }
