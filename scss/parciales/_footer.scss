@@ -1,0 +1,42 @@
+.pie {
+    display: flex;
+    grid-area: pie;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $color-primario;
+    min-height: 6rem;
+    color: $color-claro;
+
+    h3 {
+        color: $color-oscuro;
+        margin-bottom: 30px;
+        font-size: 1, 5rem;
+    }
+
+    a {
+        color: $color-claro;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+    @include for-tablet-landscape-up {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: initial;
+        padding: 1rem 3rem;
+    }
+
+    @include for-phone-only {}
+
+}
+
+.iconos {
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 1.3rem;
+    column-gap: 1rem;
+
+    a:hover {
+        color: ($color-oscuro);
+    }
+}
