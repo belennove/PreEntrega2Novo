@@ -1,0 +1,32 @@
+{
+  "name": "preentrega3novo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+
+    "build-mincss": "node-sass --include-path scss scss/estilos.scss css/main.css --output-style compressed",
+    "watch-mincss": "nodemon -e scss -x \"npm run build-mincss\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belennove/PreEntrega2Novo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belennove/PreEntrega2Novo/issues"
+  },
+  "homepage": "https://github.com/belennove/PreEntrega2Novo#readme",
+  "devDependencies": {
+    "node-sass": "7.0.3",
+    "nodemon": "2.0.20"
+  },
+  "dependencies": {
+    "bootstrap": "5.2.2",
+    "normalize.css": "8.0.1"
+  }
+}
