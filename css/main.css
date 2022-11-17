@@ -1013,6 +1013,11 @@ fieldset {
   flex-direction: column;
   align-items: center; }
 
+iframe {
+  border: 0;
+  width: 100%;
+  height: 450px; }
+
 fieldset {
   border: none; }
 
