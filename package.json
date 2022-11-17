@@ -9,7 +9,7 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "build-mincss": "node-sass --include-path scss scss/estilos.scss css/main.min.css --output-style compressed",
     "watch-mincss": "nodemon -e scss -x \"npm run build-mincss\"",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d ."
   },
   "repository": {
     "type": "git",
