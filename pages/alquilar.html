@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Inmobiliaria abrem, inmobiliaria en zona sur">
+  <meta name="author" content="Maria Belen Novo">
+  <meta name="keywords" content="alquiler,zona zur,Quilmes,La Plata,departamento, locales, casa, ph, local">
+
+  <link rel="shortcut icon" href="../images/house.png" />
+  <script src="https://kit.fontawesome.com/9583459635.js" crossorigin="anonymous"></script>
+  <title>Abrem Inmobilioaria</title>
+  <link rel="stylesheet" href="../css/main.min.css" />
+</head>
+
+<body>
+
+  <div class="contenedor-grid">
+    <header class="cabecera">
+      <div class="logo">
+        <img src="../images/house.png" alt="logo" />
+        <p class="logo-name">Abrem Inmobiliaria</p>
+      </div>
+      <div class="toggle-menu">
+        <label for="toggle-menu-checkbox"><i class="fa-solid fa-bars fa-2xl"></i></label>
+      </div>
+      <nav class="cabecera-nav">
+        <input type="checkbox" class="toggle-menu_checkbox" id="toggle-menu-checkbox" />
+        <ul class="cabecera-nav__menu">
+          <li><a href="../index.html">inicio</a></li>
+          <li><a href="comprar.html">comprar</a></li>
+          <li><a href="vender.html">vender</a></li>
+          <li><a href="alquilar.html">alquilar</a></li>
+          <li><a href="contactos.html">contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="portada">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../images/carrucel/carrucel1.png" class="d-block w-100" alt="casa">
+          </div>
+          <div class="carousel-item">
+            <img src="../images/carrucel/carrucel2.jpg" class="d-block w-100" alt="cerradura con llave">
+          </div>
+          <div class="carousel-item">
+            <img src="../images/carrucel/carrucel3.jpg" class="d-block w-100" alt="cocina">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+
+    <main class="contenido-alquilar">
+      <form action="" method="post">
+        <fieldset>
+          <label for="ciudad">Ciudad:</label>
+          <select name="ciudad">
+            <option value="To">Todos</option>
+            <option value="LP">La Plata</option>
+            <option value="BA">Buenos Aires</option>
+            <option value="M">Mar del Plata</option>
+            <option value="" selected="selected">Selecciona ciudad...</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <label for="tipo">tipo de inmueble:</label>
+          <select name="inmueble">
+            <option value="ca">Casa</option>
+            <option value="de">Departamento</option>
+            <option value="ofi">Oficinas</option>
+            <option value="du">Duplex</option>
+            <option value="" selected="selected">Selecciona inmueble...</option>
+          </select>
+        </fieldset>
+        </select>
+        <fieldset>
+          <label for="rango">rango:</label>
+          <select name="rango">
+            <option value="MINIMO">Hasta $800,000</option>
+            <option value="HASTA">Hasta $100.000 </option>
+            <option value="MAS">Mas de $100.000</option>
+            <option value="T">Todos</option>
+            <option value="" selected="selected">Selecciona una peracion...</option>
+          </select>
+        </fieldset>
+
+      </form>
+      <div class="imagen-galeria">
+        <div class="gallery-item">
+          <picture><img src="../images/alquilar/casa1.jpg" loading="lazy" alt="casa en avenida"></picture>
+          <div class="galeria-item__description">
+            <p>
+              <b>Descripción:</b> Casa en alquiler en Bajo Palermo. Excelente ubicacion y entorno. A 2 cuadras del Parque de las Naciones y 1/2 de Sagrada Familia.<br>
+              <b>Ubicacion:</b> Betania 3300, Bajo Palermo, Cordoba, Capital, Córdoba
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <picture><img src="../images/alquilar/casa2.jpg" loading="lazy" alt="casa con jardin"></picture>
+          <div class="galeria-item__description">
+            <p>
+              <b>Descripción:</b> Casa 4 ambientes en alquiler Fincas de San Vicente,  <br>
+              <b>Ubicacion:</b> Av. Juan Pablo Ii, San Vicente, Provincia de Buenos Aires 100, Fincas de San Vicente, San Vicente, Buenos Aires
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <picture><img src="../images/alquilar/casa3.jpg" loading="lazy" alt="departamento al frente"></picture>
+          <div class="galeria-item__description">
+            <p>
+              <b>Descripción:</b> Excelente departamento de 2 ambientes en 2do. Piso con Balcón <br>
+              <b>Ubicacion:</b>Ciudad de la Paz 3100, Nuñez, Capital Federal
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <picture><img src="../images/alquilar/casa4.jpg" loading="lazy" alt="casa de ladrillo"></picture>
+          <div class="galeria-item__description">
+            <p>
+              <b>Descripción:</b> CASA EN ALQUILER A ESTRENAR 4 AMBIENTES CON PISCINA, Y ENORME JARDIN
+              ALQUILER RESIDENCIAL <br>
+              <b>Ubicacion:</b> Ruta 25 y Caamaño S/n 400, Pilar del Este - San Ramon, Pilar, Pilar, Buenos Aires
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <picture><img src="../images/alquilar/casa5.jpg" loading="lazy" alt="casa antigua"></picture>
+          <div class="galeria-item__description">
+            <p>
+              <b>Descripción:</b>HERMOSA CASA QUINTA CON MAS DE UNA HECTAREA DE TERRENO PARQUIZADO, ACONDICIONADA CON RAMPAS DE ACCESO Y DIFERENTE CUALIDADES PARA FUNCIONAR COMO CASA DE REHABILITACION. TAMBIEN PUEDE ACONDICIONARCE COMO HOSTEL Y/O CASA DE ASCILO PARA ADULTOS MAYORES <br>
+              <b>Ubicacion:</b> Alquiler en ciudad de la Paz 3100, Nuñez, Capital Federal
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <picture><img src="../images/alquilar/casa6.jpg" loading="lazy" alt="casa con garage amplio"></picture>
+          <div class="galeria-item__description">
+            <p>
+              <b>Descripción:</b>Casa en alquiler desarrollada íntegramente en planta baja <br>
+              <b>Ubicacion:</b>449 Esq 26 2500, City Bell, La Plata, Buenos Aires
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="pie">
+      <div>
+        <h3>contactanos</h3>
+        <div class="iconos">
+          <a href="https://es-la.facebook.com/">
+            <i class="fa-brands fa-square-facebook fa-2xl"></i>
+            Facebook
+          </a>
+          <a href="https://es-la.facebook.com/">
+            <i class="fa-brands fa-instagram fa-2xl"></i>
+            Instagran
+          </a>
+          <a href="https://es-la.facebook.com/">
+            <i class="fa-brands fa-whatsapp fa-2xl"></i>
+            Whatsapp
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h3>casa central</h3>
+        <div class="iconos">
+          <a href="https://goo.gl/maps/vpZCTWfn4kn9o3XCA">
+            <i class="fa-solid fa-location-dot fa-2xl"></i>
+            Direccion
+          </a>
+          <a href="https://es-la.facebook.com/">
+            <i class="fa-solid fa-clock fa-2xl"></i>
+            Horarios
+          </a>
+          <a href="https://es-la.facebook.com/">
+            <i class="fa-solid fa-envelope fa-2xl"></i>
+            mail
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

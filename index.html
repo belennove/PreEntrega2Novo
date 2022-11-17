@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="La Inmobiliaria mas importante de Argentina, Abrem">
+  <meta name="author" content="Maria Belen Novo">
+  <meta name="keywords" content="alquiler, venta, compra, inmobiliaria, departamento, locales, casa, ph, local">
+
+  <link rel="shortcut icon" href="./images/house.png" />
+  <script src="https://kit.fontawesome.com/9583459635.js" crossorigin="anonymous"></script>
+  <title>Abrem Inmobilioaria</title>
+  <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body>
+
+  <div class="contenedor-grid">
+    <header class="cabecera">
+      <div class="logo">
+        <img src="./images/house.png" alt="logo" />
+        <p class="logo-name">Abrem Inmobiliaria</p>
+      </div>
+      <div class="toggle-menu">
+        <label for="toggle-menu-checkbox">
+          <i class="fa-solid fa-bars fa-2xl"></i>
+        </label>
+      </div>
+      <nav class="cabecera-nav">
+        <input type="checkbox" class="toggle-menu_checkbox" id="toggle-menu-checkbox">
+        <ul class="cabecera-nav__menu">
+          <li><a href="index.html">inicio</a></li>
+          <li><a href="./pages/comprar.html">comprar</a></li>
+          <li><a href="./pages/vender.html">vender</a></li>
+          <li><a href="./pages/alquilar.html">alquilar</a></li>
+          <li><a href="./pages/contactos.html">contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="portada">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/carrucel/carrucel1.png" class="d-block w-100" alt="casa">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/carrucel/carrucel2.jpg" class="d-block w-100" alt="cerradura con llave">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/carrucel/carrucel3.jpg" class="d-block w-100" alt="cocina">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+    <main class="contenido">
+      <section class="nosotros">
+        <h1>Quienes Somos</h1>
+        <p>En el año 2006 el Sr. Jose ; fundador de INMOBILIARIA comenzó su incorporación al mercado inmobiliario
+          comercializando casas prefabricadas.
+
+          En 2010 nos insertamos de lleno en el nicho efectuando nuestras primeras ventas de lotes.
+          Desde ese momento nos esmeramos por brindarle una amplia gama de servicios para que usted pueda resolver sus
+          inquietudes de manera rápida y sencilla.
+
+          Hoy, los seguimos invitando a disponer de nuestros servicios y conocernos.
+          Agradecemos a los profesionales que con mucho empeño nos acompañan y nos ayudan a seguir creciendo día a día.
+
+          Creemos en la actual importancia de la atención personalizada. Con la globalización y la llegada de la
+          tecnología, cada vez más avanzada, uno de manera natural va perdiendo éste tipo de atención.
+          Nosotros queremos mantenerla, para que su asesoramiento pueda ser completo y abarcar más de una simple
+          pregunta virtual. Consúltenos por inversión, curiosidad o ayuda.</p>
+      </section>
+      <div class="seccion-opiniones">
+        <h2 class="opiniones-titulo">Opiniones</h2>
+
+        <div class="opinion-ip">
+          <div class="opinion-ip__imagen">
+            <img src="./images/persona.jpg" alt="clientes" />
+          </div>
+          <div class="opinion-ip__comentario">
+            <p>¡Espectacular departamento con una de las vistas más lindas que disfrute! Excelente edificio. Todo
+              impecable!! Y el trato de los dueños es lo mejor!.Lo súper recomiendo!!!!!
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <form action="formulario" method="post" class="form">
+        <h2 class="form__titulo">Suscribite a Nuetro Newslette</h2>
+        <div class="form__conteiner">
+          <input type="nombre" class="input" placeholder="nombre">
+          <input type="email" class="input" placeholder="tu correo electronico">
+          <input type="button" class="boton" value="suscribite">
+        </div>
+      </form>
+
+    </main>
+
+    <footer class="pie">
+      <div>
+        <h3>contactanos</h3>
+        <div class="iconos">
+          <a href="https://es-la.facebook.com/">
+            <i class="fa-brands fa-square-facebook fa-2xl"></i>
+            Facebook
+          </a>
+          <a href="https://es-la.facebook.com/">
+            <i class="fa-brands fa-instagram fa-2xl"></i>
+            Instagran
+          </a>
+          <a href="https://es-la.facebook.com/">
+            <i class="fa-brands fa-whatsapp fa-2xl"></i>
+            Whatsapp
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h3>casa central</h3>
+        <div class="iconos">
+          <a href="https://goo.gl/maps/vpZCTWfn4kn9o3XCA">
+            <i class="fa-solid fa-location-dot fa-2xl"></i>
+            Direccion
+          </a>
+          <a href="https://es-la.facebook.com/">
+            <i class="fa-solid fa-clock fa-2xl"></i>
+            Horarios
+          </a>
+          <a href="https://es-la.facebook.com/">
+            <i class="fa-solid fa-envelope fa-2xl"></i>
+            mail
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

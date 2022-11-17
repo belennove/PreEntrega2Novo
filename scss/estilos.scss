@@ -1,0 +1,21 @@
+@import "./../node_modules/normalize.css/normalize";
+
+// scss-docs-start import-stack
+// Configuration
+@import "./../node_modules/bootstrap/scss/functions";
+@import "./../node_modules/bootstrap/scss/variables";
+@import "./../node_modules/bootstrap/scss/maps";
+@import "./../node_modules/bootstrap/scss/mixins";
+@import "./../node_modules/bootstrap/scss/utilities";
+@import "./../node_modules/bootstrap/scss/helpers";
+
+// Layout & components
+@import "./../node_modules/bootstrap/scss/carousel";
+
+
+@import "./parciales/variables";
+@import "./parciales/structure";
+@import "./parciales/header";
+@import "./parciales/banner";
+@import "./parciales/contenido";
+@import "./parciales/footer";
